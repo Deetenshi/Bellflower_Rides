@@ -1,11 +1,24 @@
 body{
-	background-color:#222222;
+    background-color:#222222;
     font-family: Arial;
 }
 a{
     text-decoration: none;
     color: #000000;
 }
+p{
+    color: #ffffff;
+    border: 0px;
+}
+h1{
+    color: #ffffff;
+    padding: 0px;
+}
+li{
+    color: #ffffff
+}
+
+
 a:hover{
     font-weight: bolder;
 }
@@ -21,9 +34,9 @@ a:hover{
 }
 .dropdown-content{
     display: none;
-    min-width: 160px;
+    min-width: 200px;
     position: absolute;
-    z-index: 1;
+    background-color: #ffffff
 }
 .dropdown-content a {;
     text-decoration: none;
