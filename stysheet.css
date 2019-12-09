@@ -1,11 +1,24 @@
 body{
-    background-color:#222222;
+    background-color:#111111;
     font-family: Arial;
 }
 a{
     text-decoration: none;
     color: #000000;
+    
 }
+
+#a-type2{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+footer{
+    font-size: .5vh;
+    font-size: .5vw;
+    color: #ffffff;
+}
+
 p{
     color: #ffffff;
     border: 0px;
@@ -17,19 +30,39 @@ h1{
 li{
     color: #ffffff
 }
-
-
 a:hover{
     font-weight: bolder;
 }
+
+
+.imagebox{
+    position: relative;
+}
+.textboxright{
+    position: absolute;
+    text-align: right;
+    font-size: 1.5vh;
+    font-size: 1.5vw;
+}
+.textboxleft{
+    position: absolute;
+    text-align: left;
+    font-size: 1.5vh;
+    font-size: 1.5vw;
+}
+.desctb{
+    font-size: 1vh;
+    font-size: 1vw;
+}
+
 .dropbtn{
     padding: 2px;
     border: none;
-    background-color: #222222 
+    background-color: #111111; 
 }
 .dropdown{
     display: inline-block;
-    background-color: #222222;
+    background-color: #111111;
     position: relative;
 }
 .dropdown-content{
